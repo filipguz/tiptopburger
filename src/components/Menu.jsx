@@ -146,20 +146,29 @@ export default function Menu() {
         </div>
 
         {/* Full menu CTA */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="https://getfood.no/tiptopburger/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-brand-red hover:bg-red-800 text-white font-bold px-8 py-4 rounded-full transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
-            Se full meny og bestill online
+            Bestill online
             <span>→</span>
           </a>
-          <p className="text-stone-400 text-sm mt-3">
-            Priser kan variere. Se oppdatert meny på getfood.no
-          </p>
+          <a
+            href="/meny_Tip_Top_2025.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-white border-2 border-brand-red text-brand-red hover:bg-red-50 font-bold px-8 py-4 rounded-full transition-all duration-200 shadow hover:shadow-md hover:-translate-y-0.5"
+          >
+            <span>📄</span>
+            Last ned meny (PDF)
+          </a>
         </div>
+        <p className="text-center text-stone-400 text-sm mt-4">
+          Priser kan variere. Se oppdatert meny på getfood.no
+        </p>
       </div>
     </section>
   )

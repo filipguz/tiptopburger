@@ -11,7 +11,7 @@ export default function OrderCTA() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=1600&q=80')",
+            "url('/oversikt01.jpg')",
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-r from-red-900/95 via-red-800/90 to-orange-800/80" />

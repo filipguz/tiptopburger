@@ -9,7 +9,7 @@ const dishes = [
     emoji: '🌭',
     badge: 'Signaturrett',
     badgeColor: 'bg-amber-500',
-    image: 'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=600&q=80',
+    image: '/snadderloff.jpeg',
   },
   {
     name: 'Klassisk Hamburger',
@@ -18,16 +18,16 @@ const dishes = [
     emoji: '🍔',
     badge: 'Bestselger',
     badgeColor: 'bg-brand-red',
-    image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca854a?w=600&q=80',
+    image: '/BurgerKvadratisk.png',
   },
   {
-    name: 'Storpizza',
-    description: 'Vår populære storpizza med deilig tomatsaus og din favoritttopping. Gratis hjemlevering ved bestilling!',
-    price: 'fra kr 159',
-    emoji: '🍕',
-    badge: 'Gratis levering',
-    badgeColor: 'bg-green-600',
-    image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80',
+    name: 'Løvbiffsnadder',
+    description: 'Møre, tynne skiver løvbiff med sautert løk, paprika og hjemmelaget saus. En skikkelig klassiker.',
+    price: 'fra kr 119',
+    emoji: '🥩',
+    badge: 'Husets favoritt',
+    badgeColor: 'bg-orange-600',
+    image: '/lovbiff.jpeg',
   },
 ]
 

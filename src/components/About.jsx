@@ -27,8 +27,8 @@ export default function About() {
               {/* Main image */}
               <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
                 <img
-                  src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80"
-                  alt="Interiør Tip Top Burgers"
+                  src="/TipTopinngang.JPG"
+                  alt="Inngangen til Tip Top Burgers & Sånt i Evje"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />

@@ -11,7 +11,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center scale-105"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1920&q=80')",
+            "url('/tiptop01.jpg')",
         }}
       />
 

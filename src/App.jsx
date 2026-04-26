@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import PopularDishes from './components/PopularDishes'
 import About from './components/About'
+import Gallery from './components/Gallery'
 import Menu from './components/Menu'
 import OrderCTA from './components/OrderCTA'
 import Hours from './components/Hours'
@@ -16,6 +17,7 @@ export default function App() {
         <Hero />
         <PopularDishes />
         <About />
+        <Gallery />
         <Menu />
         <OrderCTA />
         <Hours />
